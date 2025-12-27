@@ -1,0 +1,255 @@
+/* Pomodoro Timer Styles */
+
+/* TODO: Add your custom styles here */
+
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  /* TODO: Add background color, text color, etc. */
+}
+
+#app {
+  /* TODO: Add app container styles */
+}
+
+/* Timer Display Styles */
+.timer-display {
+  /* TODO: Add timer display styles */
+  /* Suggestions:
+   * - Center align
+   * - Large, readable font for time
+   * - Circular progress ring
+   * - Color coding for different session types
+   */
+}
+
+.timer-display .time {
+  /* TODO: Style the time display */
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.progress-ring {
+  /* TODO: Add progress ring/circle styles */
+  /* Suggestions:
+   * - SVG circle with stroke-dasharray animation
+   * - Or CSS-based circular progress
+   * - Different colors for work/break sessions
+   */
+}
+
+.session-label {
+  /* TODO: Style session type label */
+}
+
+.session-count {
+  /* TODO: Style session counter */
+}
+
+/* Control Buttons */
+.controls {
+  /* TODO: Add controls container styles */
+}
+
+.btn {
+  /* TODO: Add base button styles */
+  /* Suggestions:
+   * - Padding, border-radius
+   * - Hover effects
+   * - Active/disabled states
+   */
+}
+
+.btn-start {
+  /* TODO: Style start button */
+}
+
+.btn-pause {
+  /* TODO: Style pause button */
+}
+
+.btn-reset {
+  /* TODO: Style reset button */
+}
+
+.btn-skip {
+  /* TODO: Style skip button */
+}
+
+.btn:disabled {
+  /* TODO: Style disabled state */
+}
+
+/* Task List Styles */
+.task-list {
+  /* TODO: Add task list container styles */
+}
+
+.task-form {
+  /* TODO: Style task input form */
+}
+
+.task-filters {
+  /* TODO: Style filter buttons */
+}
+
+.tasks {
+  /* TODO: Style task list */
+  list-style: none;
+}
+
+.task-item {
+  /* TODO: Style individual task items */
+  /* Suggestions:
+   * - Border/background
+   * - Hover effect
+   * - Completed state (strikethrough, opacity)
+   * - Active task highlight
+   */
+}
+
+.task-item.completed {
+  /* TODO: Style completed tasks */
+}
+
+.task-item.active {
+  /* TODO: Style active/current task */
+}
+
+/* Statistics Panel */
+.stats-panel {
+  /* TODO: Add stats panel styles */
+}
+
+.today-stats {
+  /* TODO: Style today's stats section */
+}
+
+.stat {
+  /* TODO: Style stat display */
+}
+
+.stat-value {
+  /* TODO: Style stat numbers */
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.stat-label {
+  /* TODO: Style stat labels */
+}
+
+.weekly-chart {
+  /* TODO: Style weekly chart container */
+}
+
+.productivity-score {
+  /* TODO: Style productivity score display */
+}
+
+.score {
+  /* TODO: Style score number/circle */
+}
+
+/* Settings Panel */
+.settings-panel {
+  /* TODO: Add settings panel styles */
+}
+
+.settings-form {
+  /* TODO: Style settings form */
+}
+
+.setting-group {
+  /* TODO: Style setting groups */
+}
+
+.setting-group h3 {
+  /* TODO: Style section headers */
+}
+
+.setting-group label {
+  /* TODO: Style form labels */
+}
+
+.setting-group input[type="number"],
+.setting-group input[type="range"],
+.setting-group select {
+  /* TODO: Style form inputs */
+}
+
+.setting-group input[type="checkbox"] {
+  /* TODO: Style checkboxes */
+}
+
+.setting-actions {
+  /* TODO: Style action buttons container */
+}
+
+/* View Management */
+.view {
+  /* TODO: Add view container base styles */
+}
+
+.view.hidden {
+  display: none;
+}
+
+/* Navigation */
+nav {
+  /* TODO: Add navigation styles */
+}
+
+nav button {
+  /* TODO: Style navigation buttons */
+}
+
+nav button.active {
+  /* TODO: Style active navigation button */
+}
+
+/* Theme Support */
+body.dark-theme {
+  /* TODO: Add dark theme styles */
+  /* Override colors for dark mode */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  /* TODO: Add mobile responsive styles */
+}
+
+/* Animations */
+@keyframes pulse {
+  /* TODO: Add pulse animation for timer */
+}
+
+@keyframes slideIn {
+  /* TODO: Add slide-in animation for views */
+}
+
+/* Utility Classes */
+.hidden {
+  display: none !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-1 { margin-top: 0.5rem; }
+.mt-2 { margin-top: 1rem; }
+.mt-3 { margin-top: 1.5rem; }
+
+.mb-1 { margin-bottom: 0.5rem; }
+.mb-2 { margin-bottom: 1rem; }
+.mb-3 { margin-bottom: 1.5rem; }
+
+/* TODO: Add more utility classes as needed */

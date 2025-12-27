@@ -1,0 +1,26 @@
+{
+  "name": "pomodoro_timer",
+  "version": "1.0.0",
+  "description": "A full-featured Pomodoro timer with task management and statistics",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariavhayempour/pomodoro_timer.git"
+  },
+  "keywords": ["pomodoro", "timer", "productivity"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ariavhayempour/pomodoro_timer/issues"
+  },
+  "homepage": "https://github.com/ariavhayempour/pomodoro_timer#readme",
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vite": "^6.0.0"
+  }
+}
