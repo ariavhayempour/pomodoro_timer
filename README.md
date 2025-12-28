@@ -1,6 +1,6 @@
 # Pomodoro Timer
 
-A full-featured Pomodoro timer web application built with TypeScript and Vite. This project provides a complete structure with TODOs for you to implement the core algorithms and UI functionality.
+A full-featured Pomodoro timer web application built with TypeScript and Vite. .
 
 ## Features
 
